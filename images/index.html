@@ -17,8 +17,8 @@
 
 <script>
 function myFunction() {
-  imageId = imageId + 1;
-  document.getElementById("candy").src = "image" + imageId;
+  if (imageId < 31) { imageId = imageId + 1;}
+  document.getElementById("candy").src = "image" + imageId + ".jpg";
 }
 </script>
 </body>
