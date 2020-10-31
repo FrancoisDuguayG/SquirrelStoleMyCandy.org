@@ -9,5 +9,5 @@ search no further with our app you will be able to find what is missing you!
 with the help of our squirrel "mole" who as infiltreted there gang, 
 you will get top secret info on the location of your candy.
 
-[!!!SECRET INFO!!!](https://francoisduguayg.github.io/SquirrelStoleMyCandy.org/web)
+[!!!SECRET INFO!!!](https://francoisduguayg.github.io/SquirrelStoleMyCandy.org/images/index.html)
 
