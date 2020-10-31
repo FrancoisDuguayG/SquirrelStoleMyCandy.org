@@ -11,13 +11,17 @@
 </head>
 <h1>Top Secret</h1>
   
-<img id="candy" src="image1.jpg" alt="hi" class="inline"/>
+<img id="candy" src="image1.jpg" style="max-height: 500px;max-width: 500px;" class="inline"/>
 
-<button onclick="myFunction()">Click me</button>
-
+<button onclick="sub()">back</button>
+<button onclick="add()">next</button>
 <script>
-function myFunction() {
+function add() {
   if (imageId < 36) { imageId = imageId + 1;}
+  document.getElementById("candy").src = "image" + imageId + ".jpg";
+}
+function sub() {
+  if (imageId > 1) { imageId = imageId - 1;}
   document.getElementById("candy").src = "image" + imageId + ".jpg";
 }
 </script>
