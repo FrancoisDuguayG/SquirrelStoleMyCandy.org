@@ -10,11 +10,13 @@
   </script>
 </head>
 <h1>Top Secret</h1>
-  
-<img id="candy" src="image1.jpg" style="max-height: 500px;max-width: 500px;" class="inline"/>
-
+<div>
+  <img id="candy" src="image1.jpg" style="max-height: 500px;max-width: 500px;" class="inline"/>
+</div>
+<div>
 <button onclick="sub()">back</button>
 <button onclick="add()">next</button>
+</div>
 <script>
 function add() {
   if (imageId < 36) { imageId = imageId + 1;}
