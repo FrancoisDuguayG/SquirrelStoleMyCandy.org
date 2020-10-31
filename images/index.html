@@ -6,13 +6,14 @@
 </script>
 <h1>Top Secret</h1>
   
-<img src="squirrel.jpg" alt="hi" class="inline"/>
+<img id="candy" src="squirrel.jpg" alt="hi" class="inline"/>
 
 <button onclick="myFunction()">Click me</button>
 
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+  imageId = imageId + 1;
+  document.getElementById("candy").src = "image" + imageId;
 }
 </script>
 </body>
