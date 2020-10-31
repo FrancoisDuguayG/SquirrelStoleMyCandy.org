@@ -9,15 +9,15 @@
   </script>
 </head>
 <body>
-  <div style="display: table-cell;vertical-align: middle;">
-<h1>Top Secret</h1>
-<div style="max-height: 500px;max-width: 500px;">
-  <img id="candy" src="image1.jpg" onclick="add()" style="max-height: 500px;max-width: 500px;" class="inline"/>
-</div>
-<div>
-<button onclick="sub()">back</button>
-<button onclick="add()">next</button>
-</div>
+<div style="display: flex; align-items: center; justify-content: center;">
+  <h1>Top Secret</h1>
+  <div style="max-height: 500px;max-width: 500px;">
+    <img id="candy" src="image1.jpg" onclick="add()" style="max-height: 500px;max-width: 500px;" class="inline"/>
+  </div>
+  <div>
+    <button onclick="sub()">back</button>
+    <button onclick="add()">next</button>
+  </div>
 </div>
 <script>
 function add() {
