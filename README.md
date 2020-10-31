@@ -2,12 +2,11 @@
 
 ![image](/images/squirrel.jpg)
 
-<script type="text/javascript">
-  const foo = 1;
-let bar = foo;
+Did some squirrels stole your candy? You hate it what that append.
 
-bar = 9;
+search no further with our app you will be able to find what is missing you!
+with the help of our squirrel "mole" who as infiltreted there gang, 
+you will get top secret info on the location of your candy.
 
-console.log(foo, bar); // => 1, 9
-</script>
+[GitHub](http://github.com)
 
